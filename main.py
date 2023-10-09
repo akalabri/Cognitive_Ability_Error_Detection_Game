@@ -85,7 +85,7 @@ def drawing():
     along with the player's score.
 
     """
-    global round_num, game_set, game_timer, correct_answers  # Add game_timer
+    global round_num, game_set, game_timer, correct_answers # Add game_timer
 
     # Set up the game window and background
     window_setup()
@@ -145,9 +145,10 @@ def main():
 
         drawing()
 
+
     pygame.quit()
 
 
 if __name__ == "__main__":
     main()
-    check_saving()
+    check_saving(player,answers)

@@ -1,6 +1,5 @@
 import csv
 import time
-from main import player, answers
 
 def save_data_to_csv(player_name, answers):
     """
@@ -33,7 +32,7 @@ def save_data_to_csv(player_name, answers):
                 'Date and Time': current_datetime
             })
 
-def check_saving():
+def check_saving(player, answers):
     """
     Prompt the user to save data to a CSV file.
 

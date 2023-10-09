@@ -4,7 +4,7 @@
 ## Overview
 
 "Error Detection IQ Test" is a game that challenges players to identify differences between two sets of items. The differences could be in terms of shape, color, or written character. Players need to count the number of differences and provide their answer.
-
+![game_window](https://raw.githubusercontent.com/akalabri/Cognitive_Ability_Error_Detection_Game/main/game_window.png)
 ## Requirements
 
 - Python
@@ -39,7 +39,7 @@ python main.py
 ## Saving Game Data
 
 Player responses can be saved to a CSV file named `game_data.csv` in the `data` directory. This file captures the player's name, round number, the correct answer, the player's answer, and the date/time of the game session.
-
+![data_csv](https://raw.githubusercontent.com/akalabri/Cognitive_Ability_Error_Detection_Game/main/game_data.png)
 ## Development
 
 - **main.py**: This is the main entry point for the game. It sets up the game loop and renders the game window.
